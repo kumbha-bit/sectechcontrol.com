@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sactech Control System</title>
+<link rel="stylesheet" href="homestyle.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <img src="WhatsApp_Image_2025-12-08_at_12.15.51_b8c8fdb8-removebg-preview.png" alt="Sactech Logo" class="logo">
+  <ul class="nav-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Products</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO SLIDER -->
+<header class="hero">
+  <div class="hero-slides">
+    <div class="slide hs1"></div>
+    <div class="slide hs2"></div>
+    <div class="slide hs3"></div>
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1>Welcome to Sactech Control System</h1>
+    <p>Professional Automation & Electrical Solutions</p>
+    <button>Get Quote</button>
+  </div>
+</header>
+
+<!-- HOME SCROLL CONTENT -->
+<section class="home-scroll-content">
+  <div class="scroll-text">
+    <p>We provide high-quality automation and electrical solutions for industries. Scroll down to explore our services, products, and portfolio.</p>
+    <p>Our team ensures efficiency, reliability, and innovation in all projects. Your satisfaction is our priority.</p>
+  </div>
+</section>
+
+<!-- AFTER SCROLL BACKGROUND -->
+<section class="after-scroll">
+  <div class="after-bg"></div>
+  <div class="after-content">
+    <h2>Industries We Serve</h2>
+    <p>Automation and electrical solutions for manufacturing, energy, and commercial industries. Professional services with guaranteed results.</p>
+  </div>
+</section>
+
+<!-- NORMAL CONTENT -->
+<section class="normal-section">
+  <h2>Our Services</h2>
+  <p>Explore our solutions in automation, electrical design, panel wiring, and industrial systems. All tailored for efficiency and reliability.</p>
+</section>
+
+<script>
+const nav = document.getElementById("navbar");
+window.addEventListener("scroll", () => {
+  if(window.scrollY > 80) nav.classList.add("scrolled");
+  else nav.classList.remove("scrolled");
+});
+</script>
+
+</body>
+</html>
